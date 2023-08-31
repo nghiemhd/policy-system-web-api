@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingLife.ULTracker.WebAPI", "SingLife.ULTracker.WebAPI\SingLife.ULTracker.WebAPI.csproj", "{056D54D9-AF33-469F-ADF6-9C6D00EBA54A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingLife.PolicySystem.UA.WebApi", "SingLife.PolicySystem.UA.WebApi\SingLife.PolicySystem.UA.WebApi.csproj", "{72A904D1-E7BF-4F49-B3E3-752379005371}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingLife.PolicySystem.VulEnhanced.WebApi", "SingLife.PolicySystem.VulEnhanced.WebApi\SingLife.PolicySystem.VulEnhanced.WebApi.csproj", "{E12B6E94-3DC5-41C3-8C8A-657AC29F720A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingLife.ULTracker.WebAPI.Tests.UT", "SingLife.ULTracker.WebAPI.Tests.UT\SingLife.ULTracker.WebAPI.Tests.UT.csproj", "{1D2A6F8E-A201-487A-8E45-A7618B581E3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{B0F91F81-9436-41FE-8659-B166CE85877C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{4CBCCB87-6E1B-487A-9E0C-A3CE63239784}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItems\Shared\ApplicationInitialization.cs = SolutionItems\Shared\ApplicationInitialization.cs
+		SolutionItems\Shared\AutoMapperCompatibilityExtensions.cs = SolutionItems\Shared\AutoMapperCompatibilityExtensions.cs
+		SolutionItems\Shared\CustomBsonMediaTypeFormatter.cs = SolutionItems\Shared\CustomBsonMediaTypeFormatter.cs
+		SolutionItems\Shared\MapperConfigurationFactory.cs = SolutionItems\Shared\MapperConfigurationFactory.cs
+		SolutionItems\Shared\MediatRRegistration.cs = SolutionItems\Shared\MediatRRegistration.cs
+		SolutionItems\Shared\SerilogAuditLogger.cs = SolutionItems\Shared\SerilogAuditLogger.cs
+		SolutionItems\Shared\UserNameLoggerConfigurationExtensions.cs = SolutionItems\Shared\UserNameLoggerConfigurationExtensions.cs
+		SolutionItems\Shared\ValidateRequestContentLengthAttribute.cs = SolutionItems\Shared\ValidateRequestContentLengthAttribute.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{056D54D9-AF33-469F-ADF6-9C6D00EBA54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056D54D9-AF33-469F-ADF6-9C6D00EBA54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056D54D9-AF33-469F-ADF6-9C6D00EBA54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056D54D9-AF33-469F-ADF6-9C6D00EBA54A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72A904D1-E7BF-4F49-B3E3-752379005371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A904D1-E7BF-4F49-B3E3-752379005371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A904D1-E7BF-4F49-B3E3-752379005371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A904D1-E7BF-4F49-B3E3-752379005371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E12B6E94-3DC5-41C3-8C8A-657AC29F720A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E12B6E94-3DC5-41C3-8C8A-657AC29F720A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E12B6E94-3DC5-41C3-8C8A-657AC29F720A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E12B6E94-3DC5-41C3-8C8A-657AC29F720A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D2A6F8E-A201-487A-8E45-A7618B581E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2A6F8E-A201-487A-8E45-A7618B581E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2A6F8E-A201-487A-8E45-A7618B581E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2A6F8E-A201-487A-8E45-A7618B581E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4CBCCB87-6E1B-487A-9E0C-A3CE63239784} = {B0F91F81-9436-41FE-8659-B166CE85877C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E25685B-F5C2-4E86-939C-0C52C9D8FF32}
+	EndGlobalSection
+EndGlobal

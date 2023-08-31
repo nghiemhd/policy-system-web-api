@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="V1\MappingProfiles\VulEnhancedPolicyMappingProfile.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="SingLife.PolicySystem.Shared.Audit.WebApi" Version="10.0.3" />
+    <PackageReference Include="SingLife.PolicySystem.VulEnhanced.Infrastructure" Version="1.5.0" />
+    <PackageReference Include="SingLife.ULTracker.WebAPI.Contracts" Version="16.0.0" />
+    <PackageReference Include="SingLife.ULTracker.WebAPI.Contracts.Validators" Version="16.0.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Compile Update="V1\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Content Include="V1\Content\VULEnhancedPolicyDetailsTemplate.xlsx" />
+    <Content Include="V1\MappingProfiles\VulEnhancedPolicyMappingProfile.cs" />
+  </ItemGroup>
+</Project>
